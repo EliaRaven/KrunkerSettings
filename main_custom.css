@@ -1,0 +1,62 @@
+/*
+LEMONFISH CSS
+CSS by tae
+
+IGN: びこ
+Site: https://whuuayu.github.io/krunker
+
+--Install Instructions--
+    Right Click This Page and Click "Save Page As..."
+
+--Changelog and License Info--
+    https://github.com/whuuayu/lemonfish-css
+
+If you want to push an update or your name on the CSS, please consider donating <3
+*/
+
+/*The URL below is used for automatically updating the CSS, DO NOT TOUCH IT*/
+@import url(https://whuuayu.github.io/lemonfish-css/lemonfish.css);
+
+/*Customization Settings/設定*/
+
+:root {
+    /*Main Colors*/
+    --accent: #4f92ea; /*main color*/
+    --health: #ffff; /*health number only, health bar still changed via settings*/
+    --ammo: #4f92ea; /*ammo number*/
+    --enemy: #ffd700; /*enemy names*/
+    --friendly: #4f92ea; /*teammate names*/
+
+    /*Debug Colors*/
+    --good: #4f92ea;
+    --neutral: #ffd700;
+    --bad: #f05f5f;
+
+    /*HUD*/
+    --hud-text-shadow: 0px 0px 4px rgba(0,0,0,0.75); /*set all values to 0 to improve performance*/
+    --hud-img-shadow: 0px 0px 2px rgba(0,0,0,0.75); /*set all values to 0 to improve performance*/
+    --healthbar-opacity: 100; /*0 = invisible, 100 = max opacity*/
+}
+
+/*English Font*/
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://raw.githubusercontent.com/Yadub/BoulderBox/master/fonts/Fontfabric---Mont-Heavy.otf);
+}
+
+/*日本語フォント*/
+
+@font-face {
+    font-family: jp;
+    src: url(https://raw.githubusercontent.com/googlefonts/noto-cjk/main/Sans/OTF/Japanese/NotoSansCJKjp-Black.otf);
+}
+
+/*देवनागरी*/
+
+@font-face {
+    font-family: dv;
+    src: url(https://raw.githubusercontent.com/googlefonts/noto-fonts/main/archive/hinted/NotoSansDevanagari/NotoSansDevanagari-Black.ttf);
+}
+
+/*Add Personal Edits Below*/
