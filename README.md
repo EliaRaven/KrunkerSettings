@@ -8,5 +8,5 @@ To be able to enjoy 100% the same gaming experience as EliRaven copy the setting
 (Don't forget the mod;)
 
 # MOD
-Mod Name: StremZ_Dark
-Source: https://krunker.io/?mod=StremZ_Dark
+[SOURCE](https://krunker.io/?mod=StremZ_Dark) || Mod Name: StremZ_Dark
+
